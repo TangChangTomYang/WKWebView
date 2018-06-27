@@ -13,6 +13,7 @@
 		149561F320E37AF8006A2F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149561F220E37AF8006A2F54 /* Assets.xcassets */; };
 		149561F620E37AF8006A2F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149561F420E37AF8006A2F54 /* LaunchScreen.storyboard */; };
 		149561F920E37AF8006A2F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149561F820E37AF8006A2F54 /* main.m */; };
+		1495620420E38869006A2F54 /* YRScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495620320E38869006A2F54 /* YRScriptMessageHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		149561F520E37AF8006A2F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149561F720E37AF8006A2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149561F820E37AF8006A2F54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1495620220E38869006A2F54 /* YRScriptMessageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRScriptMessageHandler.h; sourceTree = "<group>"; };
+		1495620320E38869006A2F54 /* YRScriptMessageHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRScriptMessageHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				149561EA20E37AF7006A2F54 /* AppDelegate.m */,
 				149561EC20E37AF7006A2F54 /* ViewController.h */,
 				149561ED20E37AF7006A2F54 /* ViewController.m */,
+				1495620220E38869006A2F54 /* YRScriptMessageHandler.h */,
+				1495620320E38869006A2F54 /* YRScriptMessageHandler.m */,
 				149561EF20E37AF7006A2F54 /* Main.storyboard */,
 				149561F220E37AF8006A2F54 /* Assets.xcassets */,
 				149561F420E37AF8006A2F54 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149561EE20E37AF7006A2F54 /* ViewController.m in Sources */,
+				1495620420E38869006A2F54 /* YRScriptMessageHandler.m in Sources */,
 				149561F920E37AF8006A2F54 /* main.m in Sources */,
 				149561EB20E37AF7006A2F54 /* AppDelegate.m in Sources */,
 			);
